@@ -1,0 +1,31 @@
+{
+  "name": "ether-auth",
+  "version": "0.0.1-beta1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-evilcodes/ether-auth.git"
+  },
+  "keywords": [
+    "ethereum",
+    "auth",
+    "jwt",
+    "ether",
+    "ether-auth",
+    "authentication"
+  ],
+  "author": "Nilvin Sathnindu Kottage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/project-evilcodes/ether-auth/issues"
+  },
+  "homepage": "https://github.com/project-evilcodes/ether-auth#readme",
+  "dependencies": {
+    "ethers": "^5.7.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
