@@ -1,5 +1,5 @@
 {
-  "name": "eth-auth",
+  "name": "ethauth",
   "version": "0.0.1-beta1-core",
   "description": "",
   "main": "index.js",
