@@ -14,7 +14,7 @@ exports.generate = function (address, secret) {
     }
 
     let randomToken = generateRandomToken(32);
-    return jwt.sign({name: "ether-auth token", address: address, randomToken: randomToken}, secret, "", "");
+    return jwt.sign({name: "eth-auth token", address: address, randomToken: randomToken}, secret, "", "");
 }
 
 exports.validate = async function (token, signature, secret) {
