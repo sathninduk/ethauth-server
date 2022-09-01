@@ -1,5 +1,5 @@
 {
-  "name": "ethauth",
+  "name": "ethauth-server",
   "version": "0.0.1-beta1-core",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/project-evilcodes/eth-auth.git"
+    "url": "git+https://github.com/project-evilcodes/ethauth-server.git"
   },
   "keywords": [
     "ethereum",
@@ -21,9 +21,9 @@
   "author": "Nilvin Sathnindu Kottage",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/project-evilcodes/eth-auth/issues"
+    "url": "https://github.com/project-evilcodes/ethauth-server/issues"
   },
-  "homepage": "https://github.com/project-evilcodes/eth-auth#readme",
+  "homepage": "https://github.com/project-evilcodes/ethauth-server#readme",
   "dependencies": {
     "ethers": "^5.7.0",
     "jsonwebtoken": "^8.5.1"
