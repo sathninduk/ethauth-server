@@ -56,7 +56,7 @@ app.get('/get/:address', (req, res) => {
 #### Sample output
 ```json
 {
-    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZXRoLWF1dGggdG9rZW4iLCJhZGRyZXNzIjoiMHg5ZUMyODVFZUMxODhGMEViRmE5Zjg4RGE0ODA3YkU1YjA0OWZjMDQ5IiwicmFuZG9tVG9rZW4iOiJaTFRuMk1URkJnWndCNWJGQ3l3MnZMWHdPTFFIejBCQiIsImlhdCI6MTY2MjE3OTkwOH0.uQIG0MnYdJ2jcXQQdxtBy78DtjBZSArqFfsZ3uP6H4Ijson
+    "key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZXRoLWF1dGggdG9rZW4iLCJhZGRyZXNzIjoiMHg5ZUMyODVFZUMxODhGMEViRmE5Zjg4RGE0ODA3YkU1YjA0OWZjMDQ5IiwicmFuZG9tVG9rZW4iOiJaTFRuMk1URkJnWndCNWJGQ3l3MnZMWHdPTFFIejBCQiIsImlhdCI6MTY2MjE3OTkwOH0.uQIG0MnYdJ2jcXQQdxtBy78DtjBZSArqFfsZ3uP6H4Ijson"
 }
 ```
 use **ether.js** library to sign the fetched signing key in your frontend.
