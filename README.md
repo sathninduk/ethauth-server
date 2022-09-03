@@ -1,4 +1,5 @@
 # 🙌 Introduction
+Ethereum user authentication tokens
 
 ### Overview
 
