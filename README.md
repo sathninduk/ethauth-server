@@ -9,7 +9,6 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/ethauth-server)
 
 \
-\
 Ethereum user authentication tokens
 
 ### Overview
