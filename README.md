@@ -49,7 +49,7 @@ const ethAuth = require('ethauth-server');
 app.get('/get/:address', (req, res) => {
     let address = req.params.address;
     let key = ethAuth.generate(address, "ETH_AUTH_SECRET");
-    res.status(200).json(key);
+    res.status(200).json(key: key);
 })
 ```
 
