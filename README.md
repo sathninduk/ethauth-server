@@ -19,3 +19,20 @@ description: The documentation for the npm library eth-auth.
 * Password-less - Your Ethereum private key is your password, and it won't reveal to anyone.
 * Breach-less - According to the eth-auth authentication architecture, no need to store meaningful user data in a database.
 
+# ✅ Installation
+
+Add eth-auth as a dependency to your project.
+
+{% tabs %}
+{% tab title="npm" %}
+```bash
+npm install ethauth-server
+```
+{% endtab %}
+
+{% tab title="yarn" %}
+```bash
+yarn add ethauth-server
+```
+{% endtab %}
+{% endtabs %}
