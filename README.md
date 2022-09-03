@@ -1,4 +1,15 @@
 # 🙌 Introduction
+[![npm version](https://img.shields.io/badge/npm-0.0.1--beta1.1-orange)](https://www.npmjs.com/package/ethauth-server)
+![Build status](https://github.com/project-evilcodes/ethauth-server/actions/workflows/codeql-analysis.yml/badge.svg)
+[![Known Vulnerabilities](https://snyk.io/test/npm/ethauth-server/badge.svg)](https://snyk.io/test/npm/ethauth-server)
+[![install size](https://packagephobia.now.sh/badge?p=ethauth-server)](https://packagephobia.now.sh/result?p=ethauth-server)
+[![npm downloads](https://img.shields.io/npm/dm/ethauth-server.svg?style=flat-square)](https://npm-stat.com/charts.html?package=ethauth-server)
+[![gitter chat](https://img.shields.io/gitter/room/mzabriskie/ethauth-server.svg?style=flat-square)](https://gitter.im/eth-auth/community)
+[![code helpers](https://www.codetriage.com/project-evilcodes/ethauth-server/badges/users.svg)](https://www.codetriage.com/project-evilcodes/ethauth-server)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/ethauth-server)
+
+\
+\
 Ethereum user authentication tokens
 
 ### Overview
