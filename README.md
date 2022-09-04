@@ -93,7 +93,7 @@ app.post('/send', (req, res, next) => {
     let key = req.body.key;
     let signature = req.body.signature;
 
-    ethAuth.validate(key, signature, "ETHER_AUTH_SECRET").then((validation) => {
+    ethAuth.validate(key, signature, "ETH_AUTH_SECRET").then((validation) => {
             res.status(200).json(validation); // true
     }).catch((err) => {
         res.status(401).send('Unauthorized: Invalid signature');
