@@ -1,6 +1,6 @@
 {
   "name": "ethauth-server",
-  "version": "0.0.1-beta1.3",
+  "version": "0.0.1-beta1.4",
   "description": "",
   "main": "index.js",
   "scripts": {
