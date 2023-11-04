@@ -24,9 +24,9 @@ exports.validate = async function (token, signature, secret) {
         if (signerAddr === decodedJwt.address) {
             return {address: decodedJwt.address, authorized: true, err: null};
         } else {
-            return "Invalid signature";
+            return {address: null, authorized: false, err: "Invalid signature"};
         }
     } catch (err) {
-        return err;
+        return {address: null, authorized: false, err: err};
     }
 }
